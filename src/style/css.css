@@ -1,0 +1,118 @@
+.login-navbar {
+    background: linear-gradient(to bottom, #EF7A2A, #E1621E);
+}
+
+body {
+    background-image: url('../images/backgroundlogin.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+body .outline-orange {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+body .outline-orange:hover {
+    color: #EF7A2A;
+    border-color: white;
+    background-color: white;
+}
+
+body .outline-orange:active {
+  color: white!important;
+  border-color: #E1621E!important;
+  background-color: #E1621E!important;
+}
+
+body .outline-white {
+  color: #EF7A2A;
+  background-color: transparent;
+  border-color: #EF7A2A;
+}
+
+body .outline-white:hover {
+  color: white;
+  border-color: #EF7A2A;
+  background-color: #EF7A2A;
+}
+
+body .outline-white:active {
+  color: white!important;
+  border-color: #E1621E!important;
+  background-color: #E1621E!important;
+}
+
+body .btn-orange {
+    background-color: #EF7A2A;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+body .btn-orange:hover[type="submit"] {
+  background-color: #E1621E;
+  color: #ffffff;
+  border-color: #EF7A2A;
+}
+
+body .btn-orange:active {
+  color: white!important;
+  border-color: #E1621E!important;
+  background-color: #E1621E!important;
+}
+
+body .custom-focus:focus {
+    border-color: #E1621E;
+    box-shadow: 0 0 0 0.2rem #ff725e50;
+  }
+
+
+label , .form-check-label {
+    margin-left: 0.5rem;
+}
+
+.text-orange {
+    color: #EF7A2A;
+  }
+
+.border-orange {
+  border-color: #EF7A2A!important;
+  border-radius: 50px!important;
+  
+}
+  
+.custom-focus:checked {
+  background-color: #E1621E!important;
+  border-color: #EF7A2A!important         ;
+}
+
+.buttonindex{
+  margin: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+
+}
+
+.title{
+  font-size: 4rem;
+}
+
+
+.pagination .page-item.active .page-link {
+  background-color: #E1621E;
+  border-color: #E1621E; 
+  color: #fff;
+}
+
+.pagination .page-item .page-link {
+  background-color: white; /* Cor de fundo para as páginas não ativas */
+  border-color: #EF7A2A; /* Cor da borda para as páginas não ativas, se necessário */
+  color: #EF7A2A; /* Cor do texto para as páginas não ativas */
+}
+
+.pagination .page-item .page-link:focus {
+  box-shadow: 0 0 0 0.2rem #ff725e50;
+}
